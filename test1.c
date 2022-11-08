@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int main (int argc, char** argv)
+int main ()
 {
 	FILE* fp;
 	float percentage = 0.0;
@@ -13,15 +13,7 @@ int main (int argc, char** argv)
 	char sval1,sval2,sval3,sval4;
 	size_t num_of_bytes = 6;
 	
-	if(argc == 2)
-	{
-		sscanf(argv[1],"%f",&percentage);
-	}
-	else
-	{
-		printf("Pogresan broj argumenata\n");
-		return -1;
-	}
+	
 
 	while(1)
 	{
