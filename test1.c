@@ -5,7 +5,7 @@
 int main ()
 {
 	FILE* fp;
-	float percentage = 0.0;
+	float percentage = 0.5;
 	float X;
 	long int period = 20000L;
 	char *str;
@@ -13,8 +13,6 @@ int main ()
 	char sval1,sval2,sval3,sval4;
 	size_t num_of_bytes = 6;
 	
-	
-
 	while(1)
 	{
 		
@@ -64,8 +62,8 @@ int main ()
 
 		sval1 = str[2] - 48;
 		sval2 = str[3] - 48;
-		sval3 = str[4] - 48;
-		sval4 = str[5] - 48;
+		//sval3 = str[4] - 48;
+		//sval4 = str[5] - 48;
 		
 		free(str);
 		
